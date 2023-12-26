@@ -1,0 +1,112 @@
+/* Developed By Ahnaf Tahmid  */
+
+/* Font google */
+
+body {
+
+   
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Main Style */
+
+/* Also add Primary text Color orange and button color others are black  */
+
+.btn-primary {
+
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}
+
+.text-primary {
+
+    color: #FD6E0A;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-tittle {
+
+
+    color: #181818;
+    font-size: 45px;
+
+    font-weight: 800;
+
+
+}
+
+nav >ul {
+
+    display: flex;
+    align-items: center;
+}
+
+
+nav li {
+
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #474747;
+}
+
+.header {
+
+    background-color: #FFF8F3;
+    background-image: url('./pics/header_bg.png ') ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+   
+
+}
+
+.banner {
+
+    padding: 30px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.banner-content{
+
+    max-width: 500px;
+}
+ .banner .profile-pic{
+    width: 500px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-tittle {
+
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+}   
